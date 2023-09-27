@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action = "" th:action="@{/reg}" th:object="${obj}">
+Roll : <input type="text" th:field= "*{id}"><br>
+Name : <input type="text" th:field= "*{name}"><br>
+Marks : <input type="text" th:field= "*{salary}"><br>
+<input type="submit" value="Go">
+
+</body>
+</html>
